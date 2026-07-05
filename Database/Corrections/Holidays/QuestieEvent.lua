@@ -351,7 +351,7 @@ _LoadDarkmoonFaire = function()
     QuestieEvent.activeQuests[announcingQuestId] = true
 
     for _, questData in pairs(QuestieEvent.eventQuests) do
-        local hideQuest = questData[5]
+        local hideQuest = questData[7]
         if questData[1] == "Darkmoon Faire" and (not hideQuest) then
             local questId = questData[2]
             QuestieCorrections.hiddenQuests[questId] = nil
