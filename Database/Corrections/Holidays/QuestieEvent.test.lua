@@ -295,6 +295,8 @@ describe("QuestieEvent", function()
             _G.QuestieCompat = {
                 GetCurrentCalendarTime = function()
                     return {
+                        minute = 0,
+                        hour = 12,
                         weekDay = 4,
                         monthDay = 3,
                         month = 12,
@@ -321,6 +323,8 @@ describe("QuestieEvent", function()
             _G.QuestieCompat = {
                 GetCurrentCalendarTime = function()
                     return {
+                        minute = 0,
+                        hour = 12,
                         weekDay = 4,
                         monthDay = 3,
                         month = 12,
@@ -347,6 +351,8 @@ describe("QuestieEvent", function()
             _G.QuestieCompat = {
                 GetCurrentCalendarTime = function()
                     return {
+                        minute = 0,
+                        hour = 12,
                         weekDay = 4,
                         monthDay = 3,
                         month = 12,
@@ -373,6 +379,8 @@ describe("QuestieEvent", function()
             _G.QuestieCompat = {
                 GetCurrentCalendarTime = function()
                     return {
+                        minute = 0,
+                        hour = 12,
                         weekDay = 1,
                         monthDay = 23,
                         month = 11,
